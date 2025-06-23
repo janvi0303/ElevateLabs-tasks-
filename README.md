@@ -12,7 +12,8 @@ iii. 3NF is met by removing transitive dependencies (e.g., city and state in cus
 **Types of Keys**
 1. Primary Key (PK): Uniquely identifies each row in a table. Must be unique (no duplicates). Cannot be NULL. Only one primary key per table (but can be composite).
 2. Super Key: A set of columns that includes the primary key (may have extra columns).
-3. Foreign Key (FK): Links two tables by referencing the primary key of another table. Can be NULL (unless constrained). Foreign keys enforce relational integrity(cannot reference a non-existent record): 
+3. Foreign Key (FK): Links two tables by referencing the primary key of another table. Can be NULL (unless constrained). Foreign keys enforce relational integrity(cannot reference a non-existent record):
+   
   i. Products reference categories (category_id).
   
   ii. Orders reference customers (customer_id).
@@ -45,5 +46,6 @@ CHECK validates order statuses (e.g., "shipped", "pending").
 
 
 
+![task1-erdiagram](https://github.com/user-attachments/assets/8af1f86d-6675-4a26-97bb-f2048a789b79)
 
 
