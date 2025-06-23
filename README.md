@@ -42,9 +42,23 @@ CHECK validates order statuses (e.g., "shipped", "pending").
 
 ![image](https://github.com/user-attachments/assets/21822761-4e01-4788-8dee-78fb899b99e8)
 
+This is Entity-Relationship Diagram which visually represents the structure of a database, showing entities (tables), their attributes (columns), and relationships between them. It has five entities are represented: customers, orders, order_items, products, and categories.
 
+Entities are represented as boxes (e.g., customers, products).
 
+Primary keys are marked with a key icon (e.g., customer_id, product_id).
 
+Foreign keys are indicated with a diamond key icon (e.g., customer_id in orders, product_id in order_items).
+
+Relationships are shown with connecting lines. The numbers (1:N or N:N) represent cardinality:
+
+One customer can place many orders (1:N).
+
+One order can contain many items, and one product can appear in many order items (N:N via order_items).
+
+Products belong to one category, but a category can have many products (1:N).
+
+Each table contains relevant attributes, such as email, price, stock_quantity etc.
 
 ![task1-erdiagram](https://github.com/user-attachments/assets/8af1f86d-6675-4a26-97bb-f2048a789b79)
 
