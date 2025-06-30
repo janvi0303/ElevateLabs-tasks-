@@ -1,13 +1,77 @@
 # ElevateLabs-tasks-
 
-For task 1 details refer task1 folder
-For task 2 details refer task2 folder
+# Task 1 - E-commerce Database Schema
 
-For task 3 details refer task3 folder
+## Overview
+This repository contains the SQL script to create an e-commerce database schema with tables for customers, products, orders, and categories.
 
-For task 4 details refer task4 folder
+## Schema Design
+- **Customers**: Stores customer information
+- **Products**: Contains product details with category relationships
+- **Orders**: Records customer orders
+- **Order Items**: Tracks individual products within orders
+- **Categories**: Organizes products into categories
 
+## Relationships
+- One-to-many: Customer to Orders
+- One-to-many: Category to Products
+- Many-to-many: Orders to Products (via Order Items)
 
+# Task 2: Data Insertion and Handling Nulls
 
+## Overview
+This repository contains SQL DML operations for:
+- Inserting data (including partial inserts with NULLs)
+- Updating records with conditions
+- Deleting data safely
+- Handling NULL values
 
+## Key Concepts Demonstrated
+- INSERT with partial values
+- UPDATE with WHERE clauses
+- DELETE operations
+- NULL handling (IS NULL, COALESCE)
+- Transactions for data integrity
 
+# Task 3: Basic SELECT Queries
+
+## Overview
+This repository contains SQL SELECT queries demonstrating:
+- Basic data retrieval
+- Filtering with WHERE
+- Sorting with ORDER BY
+- Limiting results
+- Table joins
+- Aggregate functions
+
+## Key Concepts Demonstrated
+- Projection (column selection)
+- Selection (row filtering)
+- Sorting and limiting
+- Table relationships
+
+# Task 4: Aggregate Functions and Grouping
+
+## Overview:
+- Basic aggregates (COUNT, SUM, AVG)
+- GROUP BY with single/multiple columns
+- HAVING for group filtering
+- Advanced functions (ROUND, STRING_AGG)
+
+## Key Concepts Demonstrated:
+- Data summarization
+- Group filtering vs row filtering
+- Multi-table aggregation
+
+# Task 5: SQL Joins Practice
+
+## Joins Demonstrated:
+- INNER, LEFT, RIGHT, FULL OUTER
+- CROSS, SELF joins
+- Multi-table joins
+- Joins with filtering/aggregation
+
+## Key Concepts:
+- Relationship mapping
+- NULL handling in outer joins
+- Join optimization
