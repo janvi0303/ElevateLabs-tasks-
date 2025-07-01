@@ -75,3 +75,17 @@ This repository contains SQL SELECT queries demonstrating:
 - Relationship mapping
 - NULL handling in outer joins
 - Join optimization
+
+# Task 6: Subqueries Practice
+
+## Subquery Types Demonstrated:
+- Scalar, Multi-row, Correlated
+- EXISTS/NOT EXISTS
+- Derived tables (FROM clause)
+- LATERAL joins (PostgreSQL)
+- Recursive CTEs
+
+## Key Concepts:
+- Query nesting logic
+- Performance considerations
+- Alternative approaches
