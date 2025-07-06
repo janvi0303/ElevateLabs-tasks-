@@ -89,3 +89,32 @@ This repository contains SQL SELECT queries demonstrating:
 - Query nesting logic
 - Performance considerations
 - Alternative approaches
+
+# Task 7: SQL Views Practice
+
+## View Types Demonstrated:
+- Basic views
+- Join views
+- Security views
+- Materialized views (PostgreSQL)
+- Views with WITH CHECK OPTION
+
+## Key Concepts:
+- Data abstraction
+- Query simplification
+- Security implementation
+- Performance considerations
+
+  # Task 8: Stored Procedures & Functions
+
+## Components:
+- Discount calculation function
+- Price update procedure
+- Order retrieval function
+- Order processing procedure
+
+## Key Concepts:
+- Modular SQL logic
+- Parameter handling
+- Error management
+- Transaction control
